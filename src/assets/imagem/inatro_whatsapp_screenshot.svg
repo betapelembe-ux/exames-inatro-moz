@@ -1,0 +1,342 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 1140" width="540" height="1140" style="background:#0a0d14; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#21582e" />
+      <stop offset="100%" stop-color="#2d773f" />
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#94a3b8" />
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#bae6fd" />
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-2%" width="110%" height="106%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- ==================== PAGE 1 ==================== -->
+  <g id="page-1">
+    <rect x="20" y="15" width="500" height="525" rx="4" fill="#ffffff" stroke="#256e35" stroke-width="2" />
+
+    <!-- Top partial option list (from question 3) -->
+    <g transform="translate(30, 25)">
+      <g transform="translate(0, 0)">
+        <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+        <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">A</text>
+        <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+        <text x="44" y="16" font-size="11" fill="#1e293b" font-weight="600">40 metros.</text>
+      </g>
+      <g transform="translate(0, 28)">
+        <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+        <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">B</text>
+        <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+        <text x="44" y="16" font-size="11" fill="#1e293b" font-weight="600">30 metros.</text>
+      </g>
+      <g transform="translate(0, 56)">
+        <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+        <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">C</text>
+        <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+        <text x="44" y="16" font-size="11" fill="#1e293b" font-weight="600">50 metros.</text>
+      </g>
+      <g transform="translate(0, 84)">
+        <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+        <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">D</text>
+        <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+        <text x="44" y="16" font-size="11" fill="#1e293b" font-weight="600">60 metros.</text>
+      </g>
+    </g>
+
+    <!-- QUESTION 4 -->
+    <g transform="translate(30, 145)">
+      <!-- Header banner -->
+      <rect x="0" y="0" width="480" height="74" rx="3" fill="url(#headerGrad)"/>
+
+      <!-- Truck Photo thumbnail -->
+      <g transform="translate(5, 5)">
+        <rect width="130" height="64" rx="2" fill="#e2e8f0"/>
+        <!-- Sky -->
+        <rect width="130" height="35" fill="url(#skyGrad)"/>
+        <!-- Road -->
+        <polygon points="0,64 130,64 100,35 30,35" fill="#64748b"/>
+        <!-- Truck trailer with industrial pipes -->
+        <rect x="35" y="24" width="60" height="26" rx="2" fill="#cbd5e1" stroke="#475569" stroke-width="1"/>
+        <circle cx="45" cy="35" r="7" fill="#94a3b8" stroke="#334155" stroke-width="1.5"/>
+        <circle cx="60" cy="35" r="7" fill="#94a3b8" stroke="#334155" stroke-width="1.5"/>
+        <circle cx="75" cy="35" r="7" fill="#94a3b8" stroke="#334155" stroke-width="1.5"/>
+        <!-- Wheels -->
+        <rect x="38" y="49" width="10" height="6" rx="1" fill="#1e293b"/>
+        <rect x="52" y="49" width="10" height="6" rx="1" fill="#1e293b"/>
+        <rect x="78" y="49" width="10" height="6" rx="1" fill="#1e293b"/>
+        <!-- Cabin -->
+        <rect x="18" y="32" width="18" height="22" rx="2" fill="#eab308" stroke="#78350f" stroke-width="1"/>
+        <!-- Preceding vehicle -->
+        <rect x="105" y="36" width="16" height="18" rx="1" fill="#f8fafc" stroke="#334155" stroke-width="1"/>
+      </g>
+
+      <!-- Center Question Info -->
+      <g transform="translate(142, 5)">
+        <rect x="0" y="0" width="28" height="20" fill="#ffffff" rx="2" />
+        <text x="14" y="15" font-size="14" font-weight="900" fill="#0f172a" text-anchor="middle">4</text>
+
+        <rect x="195" y="0" width="55" height="20" fill="#000000" rx="2" />
+        <text x="222" y="15" font-size="13" font-family="monospace" font-weight="bold" fill="#4ade80" text-anchor="middle">00:02</text>
+
+        <!-- Question text box -->
+        <rect x="0" y="24" width="250" height="40" rx="2" fill="#ffffff"/>
+        <text x="6" y="38" font-size="10.5" font-weight="bold" fill="#0f172a">Quando carregado, a distância de paragem</text>
+        <text x="6" y="52" font-size="10.5" font-weight="bold" fill="#0f172a">de um veículo em circulação:</text>
+      </g>
+
+      <!-- Terminar Button -->
+      <rect x="400" y="48" width="75" height="22" rx="3" fill="#b91c1c" stroke="#991b1b" stroke-width="1"/>
+      <text x="437" y="63" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">TERMINAR</text>
+
+      <!-- Options Q4 -->
+      <g transform="translate(0, 78)">
+        <g transform="translate(0, 0)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">A</text>
+          <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="16" font-size="10.5" fill="#1e293b" font-weight="500">Aumenta, somente nas descidas.</text>
+        </g>
+        <g transform="translate(0, 27)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">B</text>
+          <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="16" font-size="10.5" fill="#1e293b" font-weight="500">Diminui, excepto nas descidas.</text>
+        </g>
+        <g transform="translate(0, 54)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">C</text>
+          <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="16" font-size="10.5" fill="#1e293b" font-weight="500">Aumenta.</text>
+        </g>
+        <g transform="translate(0, 81)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">D</text>
+          <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="16" font-size="10.5" fill="#1e293b" font-weight="500">Quando a carga está bem acondicionada não se altera.</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- QUESTION 5 -->
+    <g transform="translate(30, 345)">
+      <!-- Header banner -->
+      <rect x="0" y="0" width="480" height="74" rx="3" fill="url(#headerGrad)"/>
+
+      <!-- Road Photo thumbnail -->
+      <g transform="translate(5, 5)">
+        <rect width="130" height="64" rx="2" fill="#e2e8f0"/>
+        <!-- Sky -->
+        <rect width="130" height="30" fill="url(#skyGrad)"/>
+        <!-- Road with white continuous line -->
+        <polygon points="0,64 130,64 78,30 52,30" fill="url(#roadGrad)"/>
+        <!-- Continuous white line -->
+        <polygon points="63,30 67,30 73,64 69,64" fill="#ffffff"/>
+        <!-- Roadside grass/dirt -->
+        <polygon points="0,30 52,30 0,64" fill="#65a30d"/>
+        <polygon points="78,30 130,30 130,64" fill="#65a30d"/>
+      </g>
+
+      <!-- Center Question Info -->
+      <g transform="translate(142, 5)">
+        <rect x="0" y="0" width="28" height="20" fill="#ffffff" rx="2" />
+        <text x="14" y="15" font-size="14" font-weight="900" fill="#0f172a" text-anchor="middle">5</text>
+
+        <rect x="195" y="0" width="55" height="20" fill="#000000" rx="2" />
+        <text x="222" y="15" font-size="13" font-family="monospace" font-weight="bold" fill="#4ade80" text-anchor="middle">00:02</text>
+
+        <!-- Question text box -->
+        <rect x="0" y="24" width="250" height="40" rx="2" fill="#ffffff"/>
+        <text x="6" y="38" font-size="10" font-weight="bold" fill="#0f172a">Que deve fazer o condutor perante</text>
+        <text x="6" y="51" font-size="10" font-weight="bold" fill="#0f172a">a marca rodoviária de cor branca?</text>
+      </g>
+
+      <!-- Terminar Button -->
+      <rect x="400" y="48" width="75" height="22" rx="3" fill="#b91c1c" stroke="#991b1b" stroke-width="1"/>
+      <text x="437" y="63" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">TERMINAR</text>
+
+      <!-- Options Q5 -->
+      <g transform="translate(0, 78)">
+        <g transform="translate(0, 0)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">A</text>
+          <rect x="36" y="0" width="444" height="26" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="13" font-size="9.5" fill="#1e293b" font-weight="500">Manter-se na via de trânsito que ela delimita, só podendo ser pisada ou</text>
+          <text x="44" y="23" font-size="9.5" fill="#1e293b" font-weight="500">transposta para efectuar manobras.</text>
+        </g>
+        <g transform="translate(0, 30)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">B</text>
+          <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="16" font-size="9.5" fill="#1e293b" font-weight="500">Manter-se na via de trânsito que ela delimita, não podendo ser pisada ou transposta.</text>
+        </g>
+        <g transform="translate(0, 58)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">C</text>
+          <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="16" font-size="9.5" fill="#1e293b" font-weight="500">Manter-se na via de trânsito que ela delimita, devendo abrandar a marcha.</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Floating PDF reader counter 83/263 -->
+    <g transform="translate(370, 410)" filter="url(#cardShadow)">
+      <rect x="0" y="0" width="130" height="42" rx="21" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+      <text x="50" y="27" font-size="17" font-weight="800" fill="#334155">83/263</text>
+      <!-- 6 dots menu icon -->
+      <g transform="translate(96, 14)" fill="#64748b">
+        <circle cx="3" cy="3" r="2.5"/>
+        <circle cx="11" cy="3" r="2.5"/>
+        <circle cx="3" cy="8" r="2.5"/>
+        <circle cx="11" cy="8" r="2.5"/>
+        <circle cx="3" cy="13" r="2.5"/>
+        <circle cx="11" cy="13" r="2.5"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== GAP BETWEEN PAGES ==================== -->
+  <rect x="0" y="550" width="540" height="20" fill="#000000"/>
+
+  <!-- ==================== PAGE 2 ==================== -->
+  <g id="page-2">
+    <rect x="20" y="580" width="500" height="540" rx="4" fill="#ffffff" stroke="#256e35" stroke-width="2" />
+
+    <!-- QUESTION 6 -->
+    <g transform="translate(30, 595)">
+      <!-- Header banner -->
+      <rect x="0" y="0" width="480" height="78" rx="3" fill="url(#headerGrad)"/>
+
+      <!-- Falling rocks road sign thumbnail -->
+      <g transform="translate(5, 5)">
+        <rect width="130" height="68" rx="2" fill="#ffffff"/>
+        <!-- Warning Triangle Sign -->
+        <polygon points="65,8 115,60 15,60" fill="#ef4444" stroke="#b91c1c" stroke-width="1"/>
+        <polygon points="65,17 104,56 26,56" fill="#ffffff"/>
+        <!-- Mountain slope -->
+        <polygon points="32,56 70,56 70,26" fill="#1e293b"/>
+        <!-- Falling stones -->
+        <circle cx="78" cy="40" r="3.5" fill="#0f172a"/>
+        <circle cx="85" cy="46" r="3" fill="#0f172a"/>
+        <circle cx="82" cy="53" r="2.5" fill="#0f172a"/>
+        <circle cx="92" cy="52" r="3.5" fill="#0f172a"/>
+      </g>
+
+      <!-- Center Question Info -->
+      <g transform="translate(142, 5)">
+        <rect x="0" y="0" width="28" height="20" fill="#ffffff" rx="2" />
+        <text x="14" y="15" font-size="14" font-weight="900" fill="#0f172a" text-anchor="middle">6</text>
+
+        <rect x="195" y="0" width="55" height="20" fill="#000000" rx="2" />
+        <text x="222" y="15" font-size="13" font-family="monospace" font-weight="bold" fill="#4ade80" text-anchor="middle">00:02</text>
+
+        <!-- Question text box -->
+        <rect x="0" y="24" width="250" height="42" rx="2" fill="#ffffff"/>
+        <text x="6" y="44" font-size="11" font-weight="bold" fill="#0f172a">O significado deste sinal é:</text>
+      </g>
+
+      <!-- Terminar Button -->
+      <rect x="400" y="50" width="75" height="22" rx="3" fill="#b91c1c" stroke="#991b1b" stroke-width="1"/>
+      <text x="437" y="65" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">TERMINAR</text>
+
+      <!-- Options Q6 -->
+      <g transform="translate(0, 84)">
+        <g transform="translate(0, 0)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">A</text>
+          <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="16" font-size="10.5" fill="#1e293b" font-weight="500">Queda de pedras à esquerda.</text>
+        </g>
+        <g transform="translate(0, 27)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">B</text>
+          <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="16" font-size="10.5" fill="#1e293b" font-weight="500">Queda de pedras à direita.</text>
+        </g>
+        <g transform="translate(0, 54)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">C</text>
+          <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="16" font-size="10.5" fill="#1e293b" font-weight="500">Estrada com buracos na esquerda.</text>
+        </g>
+        <g transform="translate(0, 81)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">D</text>
+          <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="16" font-size="10.5" fill="#1e293b" font-weight="500">Estrada com buracos na direita.</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- QUESTION 7 -->
+    <g transform="translate(30, 800)">
+      <!-- Header banner -->
+      <rect x="0" y="0" width="480" height="74" rx="3" fill="url(#headerGrad)"/>
+
+      <!-- Road Perspective Photo -->
+      <g transform="translate(5, 5)">
+        <rect width="130" height="64" rx="2" fill="#e2e8f0"/>
+        <!-- Sky with light clouds -->
+        <rect width="130" height="28" fill="url(#skyGrad)"/>
+        <!-- Highway road -->
+        <polygon points="0,64 130,64 85,28 45,28" fill="#475569"/>
+        <!-- Center dashed line -->
+        <polygon points="63,28 67,28 70,64 66,64" fill="#e2e8f0"/>
+        <!-- Car on road -->
+        <rect x="62" y="38" width="10" height="8" rx="1" fill="#1e293b"/>
+      </g>
+
+      <!-- Center Question Info -->
+      <g transform="translate(142, 5)">
+        <rect x="0" y="0" width="28" height="20" fill="#ffffff" rx="2" />
+        <text x="14" y="15" font-size="14" font-weight="900" fill="#0f172a" text-anchor="middle">7</text>
+
+        <rect x="195" y="0" width="55" height="20" fill="#000000" rx="2" />
+        <text x="222" y="15" font-size="13" font-family="monospace" font-weight="bold" fill="#4ade80" text-anchor="middle">00:02</text>
+
+        <!-- Question text box -->
+        <rect x="0" y="24" width="250" height="40" rx="2" fill="#ffffff"/>
+        <text x="6" y="37" font-size="10" font-weight="bold" fill="#0f172a">O ordenamento do trânsito em todas as</text>
+        <text x="6" y="50" font-size="10" font-weight="bold" fill="#0f172a">estradas, compete...</text>
+      </g>
+
+      <!-- Terminar Button -->
+      <rect x="400" y="48" width="75" height="22" rx="3" fill="#b91c1c" stroke="#991b1b" stroke-width="1"/>
+      <text x="437" y="63" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">TERMINAR</text>
+
+      <!-- Options Q7 -->
+      <g transform="translate(0, 78)">
+        <g transform="translate(0, 0)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">A</text>
+          <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="16" font-size="10" fill="#1e293b" font-weight="500">aos Corpos Administrativos ou Conselhos Municipais.</text>
+        </g>
+        <g transform="translate(0, 27)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">B</text>
+          <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="16" font-size="10" fill="#1e293b" font-weight="500">à Polícia Municipal.</text>
+        </g>
+        <g transform="translate(0, 54)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">C</text>
+          <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="16" font-size="10" fill="#21582e" font-weight="700">ao INATTER.</text>
+        </g>
+        <g transform="translate(0, 81)">
+          <circle cx="16" cy="12" r="11" fill="#ffffff" stroke="#21582e" stroke-width="2"/>
+          <text x="16" y="16" font-size="12" font-weight="bold" fill="#21582e" text-anchor="middle">D</text>
+          <rect x="36" y="0" width="444" height="24" rx="3" fill="#ffffff" stroke="#21582e" stroke-width="1.5"/>
+          <text x="44" y="16" font-size="10" fill="#1e293b" font-weight="500">à Polícia de Trânsito.</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
