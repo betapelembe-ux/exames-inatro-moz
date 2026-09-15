@@ -1,0 +1,6 @@
+{
+  "name": "Guia de Exames de Condução MZ",
+  "description": "Página oficial do Guia de Exames Resolvidos e Comentados para passar à primeira no exame teórico de condução em Moçambique.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
